@@ -1,0 +1,21 @@
+*{ 
+    padding : 0; 
+    margin : 0; 
+    box-sizing : border-box; 
+} 
+body{ 
+    font-family : 'Outfit'; 
+    background : linear-gradient(#ffdad5, #fff7f9);
+ }
+.contact-container{ 
+    height : 100vh; 
+    display : flex; 
+    align-items : center; 
+    justify-content : space-evenly; 
+}
+.contact-left{ 
+    display : flex; 
+    flex-direction : column; 
+    align-items : start; 
+    gap : 20px; 
+}
